@@ -49,6 +49,16 @@ The system takes raw driving footage and filters out visual noise using a multi-
 
 ---
 
+Here is the Project Demo:
+
+
+https://github.com/user-attachments/assets/6e622606-a3bd-4dcc-885a-3cc7454359fa
+
+
+
+
+
+
 ## 🛠️ Code Configuration & Core Logic
 
 The backbone tracking array parameters used in the Hough Transform function are tuned to detect stable road lines while dismissing temporary noise fragments:
@@ -64,11 +74,6 @@ lines = cv2.HoughLinesP(
     maxLineGap=5
 )
 
-Here is the Project Demo:
-
-
-
-https://github.com/user-attachments/assets/dfca25bc-2ff0-4498-aac9-baac68d68c17
 
 
 
