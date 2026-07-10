@@ -17,30 +17,6 @@ The system takes raw driving footage and filters out visual noise using a multi-
 
 ---
 
-## 🧠 Model Pipeline Mechanics
-
-[Raw Input Video Frame]
-        │
-        ▼
-[Resize & Grayscale Conversion]
-        │
-        ▼
-[Gaussian Blur (7x7) -> Canny Edges]
-        │
-        ▼
-[Polygonal ROI Mask (Isolate Lane Space)]
-        │
-        ▼
-[HoughLinesP -> Slope Regression (np.polyfit)]
-        │
-        ▼
-[Calculate Center Midpoint vs Camera Center]
-        │
-        ▼
-[Render Animated HUD & Steering Vector Commands]
-
----
-
 ## 💻 Tech Stack & Tools Used
 - **Development Environment:** JetBrains PyCharm IDE
 - **Core Library:** OpenCV (`cv2`) for foundational pixel transformations, drawing routines, and matrix functions.
