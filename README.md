@@ -63,3 +63,14 @@ lines = cv2.HoughLinesP(
     minLineLength=40, 
     maxLineGap=5
 )
+
+Here is the Project Demo:
+
+
+
+https://github.com/user-attachments/assets/dfca25bc-2ff0-4498-aac9-baac68d68c17
+
+
+
+
+
